@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
   var globalConfig = {
-    //themeDir: 'themes/bijou'
+    themeDir: 'themes/cfo'
   };
 
   // Project configuration.
