@@ -17,7 +17,9 @@ module.exports = function(grunt) {
         options: {              // Target options
           style: 'compressed',
           sourcemap: 'true',
-          loadPath: ['<%=globalConfig.themeDir %>/bower_components/foundation/scss']
+          loadPath: [
+          'cfo-project/bower_components/foundation/scss'
+          ]
         }
       }
     },
@@ -26,9 +28,9 @@ module.exports = function(grunt) {
     concat: {
       js:{
         src: [
-          '<%=globalConfig.themeDir %>/bower_components/modernizr/modernizr.js',
-          '<%=globalConfig.themeDir %>/bower_components/foundation/js/foundation.min.js',
-          '<%=globalConfig.themeDir %>/bower_components/FlexSlider/jquery.flexslider.js',
+          'cfo-project/bower_components/modernizr/modernizr.js',
+          'cfo-project/bower_components/foundation/js/foundation.min.js',
+          'cfo-project/bower_components/FlexSlider/jquery.flexslider.js',
           'division-bar/js/division-bar.js',
           '<%=globalConfig.themeDir %>/javascript/*.js'
         ],
